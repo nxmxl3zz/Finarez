@@ -4,14 +4,14 @@
 
 # Finarez
 
-**Maneja tus finanzas como un pro.** Personal finance for Colombia and México, in Spanish.
+**Maneja tus finanzas como un pro.** Personal finance for Colombia, in Spanish.
 
 [**Open finarez.app →**](https://finarez.app)
 
 [Highlights](#highlights) · [Screenshots](#screenshots) · [Features](#features) · [How it works](#how-it-works) · [Engineering](#engineering) · [Status](#status-and-roadmap) · [Credits](#credits) · [License](#license)
 
 [![Live at finarez.app](https://img.shields.io/badge/live-finarez.app-12285a?style=flat&logo=googlechrome&logoColor=white)](https://finarez.app)
-![Markets: Colombia and México](https://img.shields.io/badge/markets-CO%20%C2%B7%20MX-9abeff)
+![Market: Colombia](https://img.shields.io/badge/market-Colombia-9abeff)
 ![Language: Spanish](https://img.shields.io/badge/language-espa%C3%B1ol-2457c5)
 ![License: proprietary](https://img.shields.io/badge/license-proprietary-152c5b)
 <br>
@@ -40,7 +40,7 @@ Finarez keeps accounts, income and expenses, transfers, budgets, savings goals, 
 
 ## Highlights
 
-- **Made for Colombia and México:** pesos colombianos and mexicanos first, dollars and euros too, transfers between currencies at the day's rate, and annual tax summaries for the DIAN and the SAT.
+- **Made for Colombia:** pesos colombianos first, other currencies too, transfers between currencies at the day's rate, and annual tax summaries for the DIAN.
 - **No bank password, ever:** import your bank's statement as CSV or Excel and review every row before it is saved.
 - **Money that adds up to the cent:** an internal double-entry ledger with integer minor units; no floating point ever touches an amount.
 - **Private by design:** each person's rows are protected by PostgreSQL row-level security, behind a strict Content-Security-Policy and optional two-step verification.
@@ -101,7 +101,7 @@ Finarez keeps accounts, income and expenses, transfers, budgets, savings goals, 
 **Analysis**
 - **Reports** and **net worth** over time, with CSV export; Patrimonio shows liquidity (months of spending covered), what you own by type and how much changed in value.
 - **Investments (Premium):** holdings in investment accounts (stocks and ETFs, funds, fixed income, crypto), buys, typed prices, FIFO sales with realized and unrealized gains kept apart, and dividends.
-- **Annual tax summaries (Premium)** for Colombia (DIAN) and México (SAT, with each personal deduction's own cap and the general one): reviewed figures for an accountant, not a tax return.
+- **Annual tax summaries (Premium)** for Colombia (DIAN): reviewed figures for an accountant, not a tax return.
 
 **Your account**
 - **Your data:** a full export as CSV files in a ZIP, and account deletion with the password.
@@ -140,7 +140,7 @@ The public homepage, the sign-in pages and the app are one React application ser
 
 ## Status and roadmap
 
-- **Live:** sign-up is open to residents of Colombia; México opens after its legal review.
+- **Live:** sign-up is open to residents of Colombia.
 - **Free to start:** the core of the app is free. **Premium** (tax summaries and investments today) is not on sale yet; its price will be announced when it launches, with a seven-day free trial.
 - **Coming to Premium:** read-only bank connections, a designed account statement to download and print, and payment reminders by email.
 
